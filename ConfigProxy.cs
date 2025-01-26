@@ -87,7 +87,7 @@ internal sealed class ConfigController : WebApiController
         if (response.StatusCode == HttpStatusCode.Forbidden)
         {
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("Client config request Cloudflare blocked (403), please open issue on GitHub or contact c4t_bot on Discord");
+            Console.WriteLine("Client config request Cloudflare blocked (403), please open issue on GitHub");
             Console.ResetColor();
         }
 
